@@ -1,0 +1,603 @@
+body {
+    background: #222;
+    background-image: linear-gradient(#222,#222, #400000);
+}
+
+a, i, p, h1, h2, h3, h4, h5, h6 {
+    color: white;
+}
+
+a:hover {
+    color: maroon;
+}
+
+/* Header */
+
+.header {
+    background: black;
+    align-items: center;
+    margin-bottom: 40px;
+    z-index: 998;
+    }
+
+.header-row {
+    align-items: center;
+}
+
+.logo h1 {
+    color: red;
+    text-align: center;
+    font-family: "Cold Night for Alligators";
+    
+    margin: 8px 0px;
+    font-size: 2.8em;
+
+
+    font-family: "Ghastly Panic";
+    font-weight: 800;
+    font-size: 3em;
+    }
+
+.menu {
+    display: flex;
+    margin: 30px 0px;
+}
+
+.menu-icon i {
+    font-size: 1.7em;
+}
+
+#menuToggler {
+    display: none;
+}
+
+.menu-icon {
+    display: none;
+}
+
+/* Main */
+/* lancamentos */
+
+.lancamentos {
+    background: #111;
+    padding: 10px;
+    margin: 20px 0px;
+}
+
+.titulo-lancamentos {
+    text-align: center;
+    margin: 40px;
+}
+
+.carousel-inner {
+    min-height: 300px;
+}
+
+.item-lancamento {
+    width: 100%;
+    height: 100%;
+    min-height: 400px;
+}
+
+.carousel-item {
+    margin-bottom: 80px;
+}
+
+.carousel-indicators li {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+}
+
+.star_filled {
+    color: white;
+}
+
+.star_empty {
+    color: grey;
+}
+
+/* destaque */
+
+.separador {
+    align-content: center;
+    text-align: center;
+}
+
+.separador i {
+    font-size: 1em;
+    color: #A00;
+}
+
+.destaque {
+    background: #111;
+    padding: 10px 20px;
+    margin: 20px 0px;
+}
+
+.destaque-top {
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.titulo-destaque h1{
+    margin: 40px;
+}
+
+.dropdown {
+    text-align: end;
+}
+
+.poster-destaque {
+    max-width: 100%;
+}
+
+.botao-carregar-mais {
+    text-align: end;
+    margin: 20px 0px;
+}
+.dropdown-toggle {
+    background: red;
+    border-style: none;
+}
+
+.btn-primary {
+    align-items: center;
+    background-color: red;
+    border-style: none;
+}
+
+/* avaliacoes */
+
+.avaliacoes {
+    background: #111;
+    padding: 10px 20px;
+    margin: 20px 0px;
+}
+
+.card-avaliacao {
+    padding: 2px;
+    margin: 4px;
+    background: #151515;
+}
+
+.foto-usuario {
+    max-width: 64px;
+    margin-top: 32px;
+}
+
+.card-avaliacao .col-7 i{
+    font-size: 0.7em;
+    margin: 2px;
+}
+
+.data-avaliacao {
+    font-size: 0.8em;
+}
+.titulo-avaliacoes {
+    margin: 40px;
+}
+
+/* bastidores */
+
+.bastidores {
+    background: #111;
+    padding: 10px 20px;
+    margin: 20px 0px;
+}
+
+.titulo-bastidores {
+    margin: 40px;
+}
+
+/* Novidades */
+
+.novidades {
+    background: #151515;
+    background: #400000;
+    padding: 10px 20px;
+    margin: 20px 0px;
+}
+
+.titulo-novidades {
+    margin: 40px;
+}
+
+.news-card {
+    background: #111;
+    margin: 16px;
+    padding: 16px;
+}
+
+.news-card img {
+    max-width: 100%;
+    text-align: center;
+}
+
+.imagem-redacao {
+    max-width: 64px;
+}
+
+.leve-tag {
+    display: inline-block;
+    background: cyan;
+    padding: 8px;
+    border-radius: 100px;
+    margin: 8px;
+    width: fit-content;
+}
+.humor-tag {
+    display: inline-block;
+    background: yellow;
+    padding: 8px;
+    border-radius: 100px;
+    margin: 8px;
+    width: fit-content;
+}
+.conhecimento-tag {
+    display: inline-block;
+    background: red;
+    color: white;
+    padding: 8px;
+    border-radius: 100px;
+    margin: 8px;
+    width: fit-content;
+}
+.trash-tag {
+    display: inline-block;
+    background: red;
+    color: white;
+    padding: 8px;
+    border-radius: 100px;
+    margin: 8px;
+    width: fit-content;
+}
+.serio-tag {
+    display: inline-block;
+    background: purple;
+    color: white;
+    padding: 8px;
+    border-radius: 100px;
+    margin: 8px;
+    width: fit-content;
+}
+.estudo-tag {
+    display: inline-block;
+    background: maroon;
+    color: white;
+    padding: 8px;
+    border-radius: 100px;
+    margin: 8px;
+    width: fit-content;
+}
+.sociedade-tag {
+    display: inline-block;
+    background: orange;
+    color: white;
+    padding: 8px;
+    border-radius: 100px;
+    margin: 8px;
+    width: fit-content;
+}
+
+.btn-primary:hover, .btn-primary:active, .btn-primary:visited, .btn-primary:focus {
+    background-color:maroon;
+}
+
+.dropdown-toggle:hover {
+    background-color:maroon;
+}
+
+.dropdown-menu {
+    background-color:maroon;
+}
+
+.dropdown-item {
+    color: white;
+}
+
+/* footer */
+
+.footer {
+    background: #151515;
+}
+
+.texto-rodape {
+    text-align: center;
+    margin: 0;
+}
+
+.svg-link {
+    filter: invert(50%) sepia(100%) hue-rotate(310deg) saturate(2000%) brightness(60%);
+    margin: 16px;
+    max-width: 3em;
+}
+
+.redes {
+    margin-top: 60px;
+}
+
+@media screen and (max-width:600px) {
+    .header {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+
+    .menu {
+        display: flex;
+        position: fixed;
+        flex-wrap: wrap;
+        align-content: center;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 0%;
+        background: rgba(0, 0, 0, 0.7);
+        overflow: hidden;
+        transition: height 0.45s;
+    }
+
+    .menu li {
+        display: block;
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 24px;
+    }
+
+    .menu li a {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+
+    .logo {
+        margin: 0;
+        font-size: 0.8em;
+        text-align: left;
+    }
+
+    .menu-icon {
+        display: block;
+        color: white;
+        width: 15em;
+        height: inherit;
+        position: absolute;
+        top: -15px;
+        right: 24px;
+        line-height: 60px;
+        z-index: 999;
+        text-align: end;
+    }
+
+    .search {
+        display: none;
+    }
+
+    .lancamentos{
+        margin-top: 80px;
+    }
+
+    .titulo-destaque, .titulo-bastidores, .titulo-novidades {
+        text-align: center;
+    }
+
+    .dropdown {
+        text-align: center;
+    }
+
+    .poster-destaque {
+        margin: 8px;
+        margin-bottom: 24px;
+    }
+
+    .news-card img {
+        display: block;
+        text-align: center;
+        margin-bottom: 16px;
+    }
+
+    .redes {
+        text-align: center;
+    }
+
+    .card-bastidores {
+        text-align: center;
+        margin: 8px;
+    }
+
+    .card-avaliacao {
+        padding: 2px;
+        margin: 4px;
+        background: #151515;
+    }
+
+    .foto-usuario {
+        max-width: 64px;
+        margin-top: 24px;
+        margin-right: 24px;
+    }
+
+    .card-avaliacao .col-7 {
+        font-size: 0.25em;
+        margin: 8px;
+    }
+
+
+    #menuToggler:checked ~ label i:first-child{
+        display: block;
+     }
+
+     #menuToggler:checked ~ label i:nth-child(2){
+        display: none;
+     }
+    
+     #menuToggler:not(checked) ~ label i:nth-child(2){
+        display: block;
+     }
+    
+     #menuToggler:not(checked) ~ label i:first-child{
+        display: none;
+     }
+    
+     #menuToggler:checked ~ ul {
+         height: 100%;
+     }
+
+     .foto-usuario {
+         font-size:  2em;
+     }
+}
+
+.dont-touch-it {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    color: #A00;
+    font-size: 1em;
+}
+
+@media screen and (min-width:601px) and (max-width:980px) {
+    .header {
+        position: fixed;
+        top: 0px;
+        width: 100%;
+    }
+
+    .menu {
+        display: flex;
+        position: fixed;
+        flex-wrap: wrap;
+        align-content: center;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 0%;
+        background: rgba(0, 0, 0, 0.7);
+        overflow: hidden;
+        transition: height 0.45s;
+    }
+
+    .menu li {
+        display: block;
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 24px;
+    }
+
+    .menu li a {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+
+    .logo {
+        margin: 0;
+        font-size: 1em;
+        text-align: left;
+    }
+
+    .menu-icon {
+        display: block;
+        color: white;
+        width: 15em;
+        height: inherit;
+        position: absolute;
+        top: -15px;
+        right: 24px;
+        line-height: 60px;
+        z-index: 999;
+        text-align: end;
+    }
+
+    .search {
+        display: none;
+    }
+
+    .lancamentos{
+        margin-top: 100px;
+    }
+
+    .titulo-destaque, .titulo-bastidores, .titulo-novidades {
+        text-align: center;
+    }
+
+    .dropdown {
+        text-align: center;
+    }
+
+    .poster-destaque {
+        margin: 8px;
+    }
+
+    .news-card img {
+        display: block;
+        text-align: center;
+        margin-bottom: 16px;
+    }
+
+    .card-avaliacao {
+        padding: 2px;
+        margin: 4px;
+        background: #151515;
+    }
+
+    .card-avaliacao .foto-usuario {
+        font-size: 4em;
+        margin-top: 24px;
+        margin-right: 24px;
+    }
+
+    .card-avaliacao .col-7 {
+        font-size: 0.1em;
+        margin: 8px;
+    }
+
+    .redes {
+        text-align: center;
+    }
+
+    .card-bastidores {
+        text-align: center;
+        margin: 8px;
+    }
+
+    .botao-carregar-mais {
+        text-align: center;
+    }
+
+    #menuToggler:checked ~ label i:first-child{
+        display: block;
+     }
+
+     #menuToggler:checked ~ label i:nth-child(2){
+        display: none;
+     }
+    
+     #menuToggler:not(checked) ~ label i:nth-child(2){
+        display: block;
+     }
+    
+     #menuToggler:not(checked) ~ label i:first-child{
+        display: none;
+     }
+    
+     #menuToggler:checked ~ ul {
+         height: 100%;
+     }
+
+     .foto-usuario {
+         font-size:  2em;
+     }
+}
+
+audio {
+    display: none;
+}
+
+@font-face {
+    font-family: "Ghastly Panic";
+    src: url(assets/fonts/ghastly-panic.ttf);
+}

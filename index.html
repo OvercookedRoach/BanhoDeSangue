@@ -1,0 +1,683 @@
+<!-- Disciplina: Desenvolvimento de Interfaces Web -->
+<!-- Aluno: Arthur Júnio Rodrigues -->
+<!-- Data: 04/10/2020 -->
+
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Ícones do Material Design -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <!-- StyleSheet do Projeto -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Favicom -->
+    <link rel="shortcut icon" href="assets/images/favicom/favicon.ico" />
+
+    <title>Banho de Sangue - O lixão do terror</title>
+</head>
+
+<body>
+    <header class="container header">
+        <div class="row header-row">
+
+            <!-- Logo -->
+            <div class="col-6 col-sm-6 col-md-6 col-lg-3 logo">
+                <h1>Banho de Sangue</h1>
+            </div>
+
+            <!-- Menu Area -->
+            <div class="col-6 col-sm-6 col-md-6 col-lg-6 menu-area">
+
+                <input type="checkbox" id="menuToggler">
+                <label for="menuToggler" class="menu-icon">
+                    <i class="material-icons"> clear </i>
+                    <i class="material-icons"> menu </i>
+                </label>
+
+                <ul class="nav menu">
+                    <!-- TODO criar links para a própria página -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#lancamentos">Lançamentos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#destaque">Destaques</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#resenhas">Resenhas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#bastidores">Bastidores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#artigos">Artigos</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-12 col-lg-1 search">
+                <form class="form-inline my-1 my-lg-0 search-area">
+                    <input class="form-control form-control-sm" type="search" placeholder="Buscar Filme" aria-label="Search">
+                </form>
+            </div>
+
+
+        </div>
+    </header>
+
+
+
+    <main class="container main">
+
+        <section class="container lancamentos" id="lancamentos">
+            <h1 class="titulo-lancamentos">Lançamentos</h1>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="container">
+                            <div class="row" class="item-lancamento">
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                                    <iframe class="item-lancamento" src="https://www.youtube.com/embed/TEwdZ8E3mNA"
+                                        frameborder="0" allowfullscreen></iframe>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                                    <h2>Books of Blood</h2>
+                                    <p>
+                                        <b>Sinopse:</b> Baseado na obra de Clive Barker, "Livros de Sangue" contará três
+                                        contos de horror interligados em espaço e tempo.
+                                    </p>
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <p> <b>Diretor:</b> Brannon Braga </p>
+                                        </div>
+                                        <div class="col-4">
+                                            <p> <b>Roteirista:</b> Clive Barker </p>
+                                        </div>
+                                        <div class="col-4">
+                                            <p> <b>Estreia:</b> 2020 </p>
+                                        </div>
+                                    </div>
+                                    <h6>Elenco:</h6>
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <p> Britt Robertson</p>
+                                        </div>
+                                        <div class="col-4">
+                                            <p> Anna Friel </p>
+                                        </div>
+                                        <div class="col-4">
+                                            <p> Rafi Gavron </p>
+                                        </div>
+                                    </div>
+                                    <h6>Avaliações:</h6>
+                                    <i class="material-icons star_filled">star_rate</i>
+                                    <i class="material-icons star_filled">star_rate</i>
+                                    <i class="material-icons star_filled">star_rate</i>
+                                    <i class="material-icons star_filled">star_rate</i>
+                                    <i class="material-icons star_empty">star_rate</i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="container">
+                            <div class="row" class="item-lancamento">
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                                    <iframe class="item-lancamento" src="https://www.youtube.com/embed/lJ8cv-Rfrcw"
+                                        frameborder="0" allowfullscreen></iframe>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                                    <h2>Terrifier 2</h2>
+                                    <p>
+                                        <b>Sinopse:</b> Após ser ressuscitado por uma entidade sinistra, Art O Palhaço
+                                        retorna ao Condado de Miles, onde irá à caça de uma adolescente e seu irmão mais
+                                        novo na noite de Halloween.
+                                    </p>
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <p> <b>Diretor:</b> Damien Leone </p>
+                                        </div>
+                                        <div class="col-4">
+                                            <p> <b>Roteirista:</b> Damien Leone </p>
+                                        </div>
+                                        <div class="col-4">
+                                            <p> <b>Estreia:</b> 2020 </p>
+                                        </div>
+                                    </div>
+                                    <h6>Elenco:</h6>
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <p> David Howard Thornton </p>
+                                        </div>
+                                        <div class="col-4">
+                                            <p> Tamara Glynn </p>
+                                        </div>
+                                        <div class="col-4">
+                                            <p> Felissa Rose </p>
+                                        </div>
+                                    </div>
+                                    <h6>Avaliações:</h6>
+                                    <i class="material-icons star_filled">star_rate</i>
+                                    <i class="material-icons star_filled">star_rate</i>
+                                    <i class="material-icons star_filled">star_rate</i>
+                                    <i class="material-icons star_filled">star_rate</i>
+                                    <i class="material-icons star_empty">star_rate</i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="container">
+                            <div class="row" class="item-lancamento">
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                                    <iframe class="item-lancamento" src="https://www.youtube.com/embed/rgNlWypWmtw"
+                                        frameborder="0" allowfullscreen></iframe>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                                    <h2>Spiral</h2>
+                                    <p>
+                                        <b>Sinopse:</b> Sob o comando do veterano da polícia Marcus (Samuel L. Jackson),
+                                        o detetive Ezekiel "Zeke" Banks (Chris Rock) se une ao seu parceiro novato
+                                        Willem (Max Minghella) para desvendar uma série de assassinatos terríveis que
+                                        estão acontecendo na cidade. Durante as investigações, Zeke acaba se envolvendo
+                                        no mórbido jogo do assassino.
+                                    </p>
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <p> <b>Diretor:</b> Darren Lynn Bousman </p>
+                                        </div>
+                                        <div class="col-4">
+                                            <p> <b>Roteirista:</b> Josh Stolberg </p>
+                                        </div>
+                                        <div class="col-4">
+                                            <p> <b>Estreia:</b> 2021 </p>
+                                        </div>
+                                    </div>
+                                    <h6>Elenco:</h6>
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <p> Morgan David Jones </p>
+                                        </div>
+                                        <div class="col-4">
+                                            <p> Ali Johnson </p>
+                                        </div>
+                                        <div class="col-4">
+                                            <p> Dan Petronijevic </p>
+                                        </div>
+                                    </div>
+                                    <h6>Avaliações:</h6>
+                                    <i class="material-icons star_filled">star_rate</i>
+                                    <i class="material-icons star_filled">star_rate</i>
+                                    <i class="material-icons star_filled">star_rate</i>
+                                    <i class="material-icons star_empty">star_rate</i>
+                                    <i class="material-icons star_empty">star_rate</i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="container">
+                            <div class="row" class="item-lancamento">
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                                    <iframe class="item-lancamento" src="https://www.youtube.com/embed/FyRkoL45JGk"
+                                        frameborder="0" allowfullscreen></iframe>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                                    <h2>Possessor</h2>
+                                    <p>
+                                        <b>Sinopse:</b> Tasya Vos (Andrea Riseborough) é uma agente de uma organização
+                                        secreta que usa uma tecnologia implantada no cérebro para habitar corpos de
+                                        outras pessoas - em última análise, levando-os a cometer assassinatos para
+                                        clientes milionários. Mas quando um trabalho dá errado, Tasya se vê presa na
+                                        mente de um hospedeiro imprevisível..
+                                    </p>
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <p> <b>Diretor:</b> Brandon Cronenberg </p>
+                                        </div>
+                                        <div class="col-4">
+                                            <p> <b>Roteirista:</b> Brandon Cronenberg </p>
+                                        </div>
+                                        <div class="col-4">
+                                            <p> <b>Estreia:</b> 2020 </p>
+                                        </div>
+                                    </div>
+                                    <h6>Elenco:</h6>
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <p> Andrea Riseborough </p>
+                                        </div>
+                                        <div class="col-4">
+                                            <p> Christopher Abbott </p>
+                                        </div>
+                                        <div class="col-4">
+                                            <p> Jennifer Jason Leigh </p>
+                                        </div>
+                                    </div>
+                                    <h6>Avaliações:</h6>
+                                    <i class="material-icons star_filled">star_rate</i>
+                                    <i class="material-icons star_filled">star_rate</i>
+                                    <i class="material-icons star_filled">star_rate</i>
+                                    <i class="material-icons star_filled">star_rate</i>
+                                    <i class="material-icons star_empty">star_rate</i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+        </section>
+
+        <div class="separador">
+            <i class="material-icons">star_rated</i>
+            <i class="material-icons">star_rated</i>
+            <i class="material-icons">star_rated</i>
+            <i class="material-icons">star_rated</i>
+            <i class="material-icons">star_rated</i>
+        </div>
+
+        <section class="container destaque" id="destaque">
+            <div class="row destaque-top">
+                <div class="col-12 col-md-4">
+                    <h1 class="titulo-destaque">Destaques</h1>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Categoria: Todos
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Found Footage</a>
+                            <a class="dropdown-item" href="#">Gore</a>
+                            <a class="dropdown-item" href="#">Psicológico</a>
+                            <a class="dropdown-item" href="#">Slasher</a>
+                            <a class="dropdown-item" href="#">Snuff</a>
+                            <a class="dropdown-item" href="#">Sobrenatural</a>
+                            <a class="dropdown-item" href="#">Trash</a>
+                            <a class="dropdown-item" href="#">Thriller</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                    <img class="poster-destaque" src="assets/images/movier-posters/salo-poster.jpg" alt="Salo">
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                    <img class="poster-destaque" src="assets/images/movier-posters/possessor-poster.jpg" alt="Salo">
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                    <img class="poster-destaque" src="assets/images/movier-posters/the-human-centipede-poster.jpg"
+                        alt="Salo">
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                    <img class="poster-destaque" src="assets/images/movier-posters/evil-dead-poster.jpg" alt="Salo">
+                </div>
+            </div>
+            <div class="botao-carregar-mais">
+                <button type="button" class="btn btn-primary">
+                    <i class="material-icons">add</i>
+                    <p> Carregar mais filmes</p>
+                </button>
+            </div>
+        </section>
+
+        <div class="separador">
+            <i class="material-icons">star_rated</i>
+            <i class="material-icons">star_rated</i>
+            <i class="material-icons">star_rated</i>
+            <i class="material-icons">star_rated</i>
+            <i class="material-icons">star_rated</i>
+        </div>
+
+        <section class="container avaliacoes" id="resenhas">
+            <h1 class="titulo-avaliacoes">Resenhas</h1>
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-4">
+                    <div class="row card-avaliacao">
+                        <div class="col-2 col-lg-1 col-xl-3">
+                            <img src="https://i.imgur.com/Sz3CjNc.png" alt="" class="foto-usuario">
+                        </div>
+                        <div class="col-10 col-md-10 col-xl-9">
+                            <h3>
+                                <a href="#ir-para-página-da-resenha">
+                                    A Serbian Film
+                                </a>
+                            </h3>
+                            <h6><b>Resenha por:</b> Arthur Júnio Sério</h6>
+                            <p>
+                                <b>Avaliação:</b>
+                                Preferia não ter assistido ao filme
+                                <a href="#ir-para-página-da-resenha">
+                                    'A Serbian Film'
+                                </a>
+                                , não pelos atos extremos representados no filme, mas sim pela falta de história, todos
+                                os personagens são odiosos e vai tudo piorando ao longo do filme. A cada vez que o filme
+                                tentava ser <i>cringy</i>, meus olhos se reviravam mais forte, o filme tenta várias
+                                coisas mas nada funciona. Quase morri de tanto tédio.
+                            </p>
+                            <div class="row">
+                                <div class="col-7">
+                                    <i class="material-icons star_filled">star_rate</i>
+                                    <i class="material-icons star_filled">star_rate</i>
+                                    <i class="material-icons star_empty">star_rate</i>
+                                    <i class="material-icons star_empty">star_rate</i>
+                                    <i class="material-icons star_empty">star_rate</i>
+                                </div>
+                                <div class="col-5">
+                                    <p class="data-avaliacao"><b>07/10/2020</b></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-4">
+                    <div class="row card-avaliacao">
+                        <div class="col-2 col-lg-1 col-xl-3">
+                            <img src="https://i.imgur.com/k6Kree0.png" alt="" class="foto-usuario">
+                        </div>
+                        <div class="col-10 col-md-10 col-xl-9">
+                            <h3>
+                                <a href="#ir-para-página-da-resenha">
+                                    Haunt
+                                </a>
+                            </h3>
+                            <h6><b>Resenha por: </b>Arthur Júnio de Boné</h6>
+
+                            <p>
+                                <b>Avaliação:</b>
+                                Bem medíocre, o filme
+                                <a href="#ir-para-página-da-resenha">
+                                    'Haunt'
+                                </a>
+                                se aproveita da narrativa de vários outros filmes, pegando um pedaço aqui e ali para
+                                montar um produto final não tão bom quanto suas refêrencias. Além disso os vilões com
+                                modificações corporais são um total cliché que, em minha opinião só serve para
+                                marginalizar ainda mais uma comunidade que já sofre preconceito no dia-a-dia.
+                            </p>
+                            <div class="row">
+                                <div class="col-7">
+                                    <i class="material-icons star_filled">star_rate</i>
+                                    <i class="material-icons star_filled">star_rate</i>
+                                    <i class="material-icons star_filled">star_rate</i>
+                                    <i class="material-icons star_empty">star_rate</i>
+                                    <i class="material-icons star_empty">star_rate</i>
+                                </div>
+                                <div class="col-5">
+                                    <p class="data-avaliacao"><b>07/10/2020</b></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-4">
+                    <div class="row card-avaliacao">
+                        <div class="col-2 col-lg-1 col-xl-3">
+                            <img src="https://i.imgur.com/k6Kree0.png" alt="" class="foto-usuario">
+                        </div>
+                        <div class="col-10 col-md-10 col-xl-9">
+                            <h3>
+                                <a href="#ir-para-página-da-resenha">
+                                    Terrifier
+                                </a>
+                            </h3>
+                            <h6><b>Resenha por: </b>Arthur Júnio de Boné</h6>
+                            <p>
+                                <b>Avaliação:</b>
+                                Confesso que quando li a sinopse do filme
+                                <a href="#ir-para-página-da-resenha">
+                                    'Terrifier'
+                                </a>
+                                fiquei com o pé atrás e coloquei na lista de assistir depois, finalmente tomei tempo
+                                para assistir e não me arrependi nem um pouco. Recomendo
+                            </p>
+                            <div class="row">
+                                <div class="col-7">
+                                    <i class="material-icons star_filled">star_rate</i>
+                                    <i class="material-icons star_filled">star_rate</i>
+                                    <i class="material-icons star_filled">star_rate</i>
+                                    <i class="material-icons star_filled">star_rate</i>
+                                    <i class="material-icons star_filled">star_rate</i>
+                                </div>
+                                <div class="col-5">
+                                    <p class="data-avaliacao"><b>07/10/2020</b></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="botao-carregar-mais">
+                <button type="button" class="btn btn-primary">
+                    <i class="material-icons">add</i>
+                    <p>Carregar mais resenhas</p>
+                </button>
+            </div>
+        </section>
+
+        <div class="separador">
+            <i class="material-icons">star_rated</i>
+            <i class="material-icons">star_rated</i>
+            <i class="material-icons">star_rated</i>
+            <i class="material-icons">star_rated</i>
+            <i class="material-icons">star_rated</i>
+        </div>
+
+        <section class="container bastidores" id="bastidores">
+            <h1 class="titulo-bastidores">Bastidores</h1>
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-4 card-bastidores">
+                    <iframe src="https://www.youtube.com/embed/dqKQcSUEhiA" frameborder="0" allowfullscreen></iframe>
+                    <h4><b>Filme:</b> The Human Centipede 2</h4>
+                    <p>
+                        <b>Diretor:</b>
+                        Tom Six
+                        <br>
+                        <b>Roteiro:</b>
+                        Tom Six
+                        <br>
+                        <b>Estreia:</b>
+                        2011
+                    </p>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-4 card-bastidores">
+                    <iframe src="https://www.youtube.com/embed/fF1wluEq3aU" frameborder="0" allowfullscreen></iframe>
+                    <h4><b>Filme:</b> Salò</h4>
+                    <p>
+                        <b>Diretor:</b>
+                        Pier Paolo Pasolini
+                        <br>
+                        <b>Roteiro:</b>
+                        Pier Paolo Pasolini
+                        <br>
+                        <b>Estreia:</b>
+                        1975
+                    </p>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-4 card-bastidores">
+                    <iframe src="https://www.youtube.com/embed/kBuzPjk7Tec" frameborder="0" allowfullscreen></iframe>
+                    <h4><b>Filme:</b> The Evil Dead</h4>
+                    <p>
+                        <b>Diretor:</b>
+                        Fede Alvarez
+                        <br>
+                        <b>Roteiro:</b>
+                        Fede Alvarez
+                        <br>
+                        <b>Estreia:</b>
+                        2013
+                    </p>
+                </div>
+            </div>
+            <div class="botao-carregar-mais">
+                <button type="button" class="btn btn-primary">
+                    <i class="material-icons">add</i>
+                    <p> Carregar mais filmes</p>
+                </button>
+            </div>
+        </section>
+
+        <a href="https://i.imgur.com/MTCe80l.gif" target="_blank"><i class="material-icons dont-touch-it">favorite</i></a>
+
+        <div class="separador">
+            <i class="material-icons">star_rated</i>
+            <i class="material-icons">star_rated</i>
+            <i class="material-icons">star_rated</i>
+            <i class="material-icons">star_rated</i>
+            <i class="material-icons">star_rated</i>
+        </div>
+
+        <section class="container novidades" id="artigos">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-8 novidades" class="conjunto-avaliacoes">
+                    <h1 class="titulo-novidades">
+                        Artigos
+                    </h1>
+                    <div class="row news-card">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-3">
+                            <img src="assets/images/news/hellraiser.jpg" alt="">
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-9">
+                            <h5>Entrevisa com Clive Barker + Um estudo sobre como Hellraiser moldou o universo do terror
+                            </h5>
+                            <p>Clive Barker, o gênio por trás do terror sadomasoquista de Hellraiser é um ser peculiar.
+                            </p>
+                            <div class="conhecimento-tag">
+                                Conhecimento Histórico
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row news-card">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-3">
+                            <img src="assets/images/news/haunt.jpg" alt="">
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-9">
+                            <h5>Por que ainda assistimos a filmes clichés?</h5>
+                            <p>Fulana está escovando seus dentes na frente de um espelho, ela se abaixa para cuspir e
+                                quando levanta: Oh não! O assassino está atrás dela! <br> Por que estes clichés ainda
+                                são tão usado em filmes de terror? </p>
+                            <div class="trash-tag">
+                                Trasheira
+                            </div>
+                            <div class="leve-tag">
+                                Papo leve
+                            </div>
+                            <div class="humor-tag">
+                                Humor
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row news-card">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-3">
+                            <img src="assets/images/news/guinea-pig.jpg" alt="">
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-9">
+                            <h5>O snuff como forma de marketing e o que isso diz sobre nossa sociedade</h5>
+                            <p>Em 1980, o diretor do filme italiano Holocausto Canibal sofreu acusações de que haveriam
+                                mortes reais suas filmagens, como se bem sabe, tudo não passou de um boato, boato esse
+                                que contribuiu muito para o marketing deste filme, o fazendo ser conhecido por todos
+                                aqueles com um gosto mais clássico pelo terror</p>
+                            <div class="estudo-tag">
+                                Estudo
+                            </div>
+                            <div class="sociedade-tag">
+                                Cinema e Sociedade
+                            </div>
+                            <div class="serio-tag">
+                                Papo sério
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+                    <h1 class="titulo-novidades">
+                        Sobre
+                    </h1>
+                    <div class="row">
+                        <div class="col-12">
+                            <p>
+                                Banho de sangue é um site com mais de 12 horas de existência, e durante todo esse
+                                período
+                                seu objetivo foi informar e noticiar o público amante do terror sem nunca faltar com o
+                                entreterimento e o humor cru e equisito. <br>
+                                O site inteiro é mantido por apenas as três pessoas mostradas aqui embaixo!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 bloco-editorial">
+                            <h1 class="titulo-novidades">
+                                Editorial
+                            </h1>
+                            <p>
+                                <img src="https://i.imgur.com/MYZP2ny.png" alt="" class="imagem-redacao">
+                                <b>Pesquisa:</b> Arthur Júnio Vermelho
+                            </p>
+                            <p>
+                                <img src="https://i.imgur.com/k6Kree0.png" alt="" class="imagem-redacao">
+                                <b>Redação:</b> Arthur Júnio de Boné
+                            </p>
+                            <p>
+                                <img src="https://i.imgur.com/Sz3CjNc.png" alt="" class="imagem-redacao">
+                                <b>Diretor:</b> Arthur Júnio Sério
+                            </p>
+                            <div class="redes">
+                                <h5>
+                                    Redes Sociais:
+                                </h5>
+                                <a href="#ir-para-o-facebook"><img src="assets/icons/facebook.svg" alt="" class="svg-link"></a>
+                                <a href="#ir-para-o-instagram"><img src="assets/icons/instagram.svg" alt="" class="svg-link"></a>
+                                <a href="#ir-para-o-twitter"><img src="assets/icons/twitter.svg" alt="" class="svg-link"></a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        
+
+    </main>
+
+    <footer class="footer">
+        <div>
+            <p class="texto-rodape"><b>Banho de Sangue</b> - Todos os direitos reservados 2020</p>
+        </div>
+    </footer>
+
+    <audio src="assets/audio/door-creak.ogg" controls autoplay>
+        Parece que o som não funcionou :c
+    </audio>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
